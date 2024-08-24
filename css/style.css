@@ -10,7 +10,7 @@
 }
 
 #header {
-  padding: 15px 0;
+  padding: 20px 0;
 }
 
 .header {
@@ -113,6 +113,10 @@ button:hover {
   font-size: 16px;
 }
 
+.info img {
+  width: 600px;
+}
+
 button:hover {
   background: #136c61;
 }
@@ -125,14 +129,16 @@ button:hover {
   font-size: 27px;
   color: #22343d;
   font-weight: 700;
-  display: flex;
-  justify-content: center;
+}
+
+.Reverse {
   text-align: center;
 }
 
 .Reverse-text {
   display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 
 .Reverse-text h1 {
@@ -158,9 +164,7 @@ button:hover {
   cursor: pointer;
   border-radius: 4px;
   padding: 13px 18px;
-  font-size: 14px;
-  font-weight: 500;
-  margin-left: 500px;
+  width: 150px;
 }
 
 .Reverse button:hover {
@@ -200,14 +204,21 @@ button:hover {
   margin-left: 25px;
 }
 
+.info-2 img {
+  width: 600px;
+}
+
 #message {
-  padding: 60px 0;
+  padding: 40px 0;
+}
+
+.message {
+  text-align: center;
 }
 
 .message h1 {
   color: #22343d;
   line-height: 65px;
-  text-align: center;
 }
 
 .message p {
@@ -218,11 +229,14 @@ button:hover {
 
 .message-text {
   display: flex;
-  margin: 30px 0 40px 180px;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
 }
 
 .m-t {
-  width: 470px;
+  width: 320px;
+  padding-block: 40px;
 }
 
 .m-t img {
@@ -237,8 +251,6 @@ button:hover {
   border-radius: 4px;
   padding: 13px 18px;
   font-size: 14px;
-  font-weight: 500;
-  margin-left: 500px;
 }
 
 .message button:hover {
@@ -246,7 +258,7 @@ button:hover {
 }
 
 #about {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 .about h1 {
@@ -263,6 +275,10 @@ button:hover {
 .img-box {
   display: flex;
   justify-content: space-between;
+}
+
+.i-box img {
+  width: 350px;
 }
 
 .i-box p {
@@ -390,9 +406,22 @@ button:hover {
   font-weight: 500;
   border: none;
   border-radius: 7px;
-  padding: 10px 15px;
-  margin: 30px 100px;
+  padding: 10px 25px;
   cursor: pointer;
+}
+
+.m-box-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.m-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .m-box button {
@@ -402,8 +431,7 @@ button:hover {
   font-weight: 500;
   border: none;
   border-radius: 7px;
-  padding: 10px 15px;
-  margin: 30px 100px;
+  padding: 10px 25px;
   cursor: pointer;
 }
 
@@ -489,11 +517,12 @@ button:hover {
 
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .footer-logo h1 {
   display: flex;
+  font-size: 27px;
 }
 
 .footer-p {
