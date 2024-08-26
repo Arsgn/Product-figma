@@ -19,6 +19,10 @@
   justify-content: space-between;
 }
 
+.burger-menu {
+  display: none;
+}
+
 .logo h1 {
   color: #173a56;
   font-size: 27px;
@@ -200,12 +204,101 @@ button:hover {
 .bx p {
   color: #22343d;
   line-height: 20px;
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 25px;
 }
 
 .info-2 img {
   width: 600px;
+}
+
+#customer {
+  padding: 60px 0;
+}
+
+.customer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customer-text {
+  width: 490px;
+}
+
+.customer-text h6 {
+  color: #22343d;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.customer-text h4 {
+  color: #22343d;
+  font-size: 35px;
+  font-weight: 700;
+  padding-block: 20px;
+}
+
+.customer-text p {
+  width: 390px;
+  color: #173a56;
+  line-height: 25px;
+}
+
+.customer-block {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding-block: 25px;
+}
+
+.cus-box {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.cus-box p {
+  color: #173a56;
+  font-size: 16px;
+}
+.cus-box img {
+  width: 35px;
+}
+
+#collaborative {
+  padding-block: 60px;
+}
+
+.collaborative {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.colla-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.colla-text h6 {
+  color: #22343d;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.colla-text h4 {
+  color: #22343d;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.colla-text p {
+  width: 432px;
+  font-size: 16px;
+  color: #173a56;
+  line-height: 25px;
 }
 
 #message {
